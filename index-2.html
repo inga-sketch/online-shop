@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        const productNameA="Samsung XXII"
+        const productPriceA= 1000.50
+        let q1= +prompt(
+            "CATALOG"+"\n"+
+            "-----------------------"+"\n"+
+            productNameA +"\n"+
+            productPriceA +"\n"+
+            "-----------------------"
+            )
+
+        const productNameB="Samsung XXIII"
+        const productPriceB= 1010.50
+        let q2= +prompt(
+            "CATALOG"+"\n"+
+            "-----------------------"+"\n"+
+            productNameB +"\n"+
+            productPriceB+"\n"+
+            "-----------------------"
+            )
+            let total= productPriceA*q1+productPriceB*q2
+            alert("Your order:"+"\n"+
+            '"Samsung XXII" * '+q1 +" + "+'"Samsung XXIII" * '+q2+" = " + total 
+            )
+
+    </script>
+    
+</body>
+</html>
